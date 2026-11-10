@@ -136,6 +136,9 @@
         "sale_price": "Prezzo scontato",
         "unit_price": "Prezzo unitario"
       },
+      "selling_plans": {
+        "one_time_purchase": "Acquisto una tantum"
+      },
       "share": "Condividi questo prodotto",
       "sold_out": "Esaurito",
       "unavailable": "Non disponibile",

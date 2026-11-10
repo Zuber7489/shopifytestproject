@@ -136,6 +136,9 @@
         "sale_price": "Prix promotionnel",
         "unit_price": "Prix unitaire"
       },
+      "selling_plans": {
+        "one_time_purchase": "Achat unique"
+      },
       "share": "Partager ce produit",
       "sold_out": "Épuisé",
       "unavailable": "Non disponible",

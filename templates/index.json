@@ -1,173 +1,356 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b": {
+    "hero_banner": {
       "type": "image-banner",
       "blocks": {
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
+        "hero_heading": {
           "type": "heading",
           "settings": {
-            "heading": "Generated test data",
+            "heading": "The Art of Modern Leathercraft",
             "heading_size": "h1"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1": {
+        "hero_subheading": {
           "type": "text",
           "settings": {
-            "text": "A theme and populated test store by Shopify to help you test commerce primitives.",
+            "text": "Meticulously handcrafted from ethically sourced Tuscan full-grain leather. Timeless silhouettes designed to accompany your life in motion.",
             "text_style": "body"
           }
         },
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2": {
+        "hero_buttons": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop products",
+            "button_label_1": "Explore The Collection",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "The Atelier Story",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
-        "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
+        "hero_heading",
+        "hero_subheading",
+        "hero_buttons"
       ],
-      "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/theme_cover_image.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
+      }
+    },
+    "value_props": {
+      "type": "multicolumn",
+      "blocks": {
+        "col_leather": {
+          "type": "column",
+          "settings": {
+            "title": "Tuscan Full-Grain Leather",
+            "text": "<p>Sourced exclusively from certified Italian tanneries, vegetable-tanned to evolve a rich, distinctive patina with every wear.</p>",
+            "link_label": "Learn More",
+            "link": "shopify://collections/all"
+          }
+        },
+        "col_artisan": {
+          "type": "column",
+          "settings": {
+            "title": "Master Saddle Stitching",
+            "text": "<p>Every seam, burnished edge, and brass rivet is hand-finished by master leather artisans with generational heritage.</p>",
+            "link_label": "Our Process",
+            "link": "shopify://collections/all"
+          }
+        },
+        "col_guarantee": {
+          "type": "column",
+          "settings": {
+            "title": "Lifetime Craft Guarantee",
+            "text": "<p>We build heirloom essentials. If stitching or hardware ever fails, our atelier repairs or replaces your bag for life.</p>",
+            "link_label": "Warranty Terms",
+            "link": "shopify://collections/all"
+          }
+        },
+        "col_monogram": {
+          "type": "column",
+          "settings": {
+            "title": "Bespoke Monogramming",
+            "text": "<p>Personalize your tote, crossbody, or weekender with complimentary hot-stamped gold foil or blind debossing.</p>",
+            "link_label": "Customization",
+            "link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "col_leather",
+        "col_artisan",
+        "col_guarantee",
+        "col_monogram"
+      ],
+      "settings": {
+        "title": "The Vala Distinction",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Featured products</strong>",
+        "title": "Curated Bestsellers",
         "heading_size": "h1",
-        "description": "",
-        "show_description": false,
+        "description": "<p>Our most celebrated silhouettes — from structured everyday totes to weekend travel companions.</p>",
+        "show_description": true,
         "description_style": "body",
-        "collection": "automated-collection",
-        "products_to_show": 10,
-        "columns_desktop": 3,
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
+        "show_view_all": true,
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 48
       }
     },
-    "f1552b18-6017-4231-810d-74e61da22c37": {
-      "type": "image-with-text",
+    "category_showcase": {
+      "type": "collection-list",
       "blocks": {
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0": {
-          "type": "heading",
+        "cat_totes": {
+          "type": "featured_collection",
           "settings": {
-            "heading": "Stay hydrated",
-            "heading_size": "h1"
+            "collection": "all"
           }
         },
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
-          "type": "text",
+        "cat_crossbody": {
+          "type": "featured_collection",
           "settings": {
-            "text": "<p>Try our wax subscription so you can fly high, but never dry.</p>",
-            "text_style": "body"
+            "collection": "all"
           }
         },
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2": {
-          "type": "button",
+        "cat_travel": {
+          "type": "featured_collection",
           "settings": {
-            "button_label": "Get waxy now",
-            "button_link": "shopify://products/selling-plans-ski-wax"
+            "collection": "all"
           }
         }
       },
       "block_order": [
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-0",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1",
-        "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2"
+        "cat_totes",
+        "cat_crossbody",
+        "cat_travel"
       ],
       "settings": {
-        "image": "shopify://shop_images/theme_cover_image.jpg",
-        "height": "adapt",
+        "title": "Explore by Silhouette",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 3,
+        "color_scheme": "background-2",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "craftsmanship_story": {
+      "type": "image-with-text",
+      "blocks": {
+        "story_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sculpted by Hand in Small Batches",
+            "heading_size": "h1"
+          }
+        },
+        "story_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In a world of mass production, Vala Atelier stands for deliberate patience. Over 48 hours of artisanal handwork go into each piece — from hand-selecting top-tier hide sections to edge burnishing with natural beeswax and assembling solid brass hardware.</p><p>Crafted to be carried every day, aging with grace and memories.</p>",
+            "text_style": "body"
+          }
+        },
+        "story_btn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover The Atelier Heritage",
+            "button_link": "shopify://collections/all"
+          }
+        }
+      },
+      "block_order": [
+        "story_heading",
+        "story_text",
+        "story_btn"
+      ],
+      "settings": {
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
-    "38cdf60f-e431-43b5-aac3-7e6215447d67": {
-      "type": "collection-list",
+    "editorial_quote": {
+      "type": "rich-text",
       "blocks": {
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0": {
-          "type": "featured_collection",
+        "quote_caption": {
+          "type": "caption",
           "settings": {
-            "collection": "hydrogen"
+            "caption": "CRITICS & TASTEMAKERS",
+            "text_style": "uppercase",
+            "text_size": "small"
           }
         },
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1": {
-          "type": "featured_collection",
+        "quote_heading": {
+          "type": "heading",
           "settings": {
-            "collection": "automated-collection"
+            "heading": "“The quiet luxury leather bag defining modern everyday elegance.”",
+            "heading_size": "h1"
+          }
+        },
+        "quote_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>— <em>VOGUE INTERNATIONAL</em></p>"
           }
         }
       },
       "block_order": [
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-0",
-        "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
+        "quote_caption",
+        "quote_heading",
+        "quote_text"
       ],
       "settings": {
-        "title": "<strong>Collections</strong>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "faq_care": {
+      "type": "collapsible-content",
+      "blocks": {
+        "faq_care_1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I care for my vegetable-tanned leather bag?",
+            "row_content": "<p>We recommend conditioning your bag twice a year with a natural beeswax leather balm. Wipe away dust with a dry microfiber cloth, avoid excessive prolonged water immersion, and allow natural marks to blend into a stunning vintage patina.</p>"
+          }
+        },
+        "faq_care_2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Vala full-grain leather different?",
+            "row_content": "<p>We never use split, bonded, or plastic-coated leathers. Full-grain preserves the outermost layer of the hide, retaining natural grain characteristics, unmatched tensile durability, and breathability.</p>"
+          }
+        },
+        "faq_care_3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the Lifetime Craft Guarantee work?",
+            "row_content": "<p>If a strap anchor, rivet, zipper pull, or stitch gives way during normal usage, send it back to our atelier. Our craftsmen will repair or replace your item with genuine parts free of charge.</p>"
+          }
+        },
+        "faq_care_4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer complimentary monogramming?",
+            "row_content": "<p>Yes. Complimentary hot-foil monogramming (gold, silver, or blind deboss) is available on all structured totes, cardholders, and duffle bags upon request during checkout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_care_1",
+        "faq_care_2",
+        "faq_care_3",
+        "faq_care_4"
+      ],
+      "settings": {
+        "caption": "FAQS & CARE",
+        "heading": "Frequently Asked Questions",
         "heading_size": "h1",
-        "image_ratio": "portrait",
-        "columns_desktop": 2,
+        "heading_alignment": "center",
+        "layout": "none",
         "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "newsletter_signup": {
+      "type": "newsletter",
+      "blocks": {
+        "nl_heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join The Atelier Circle",
+            "heading_size": "h1"
+          }
+        },
+        "nl_text": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Receive $30 toward your inaugural handcrafted bag, private invitations to limited batch archive releases, and leather care guides.</p>"
+          }
+        },
+        "nl_form": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "nl_heading",
+        "nl_text",
+        "nl_form"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": false,
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
-    "6a3bb789-ce10-45f5-ae67-e2063ef8c76b",
+    "hero_banner",
+    "value_props",
     "featured_collection",
-    "f1552b18-6017-4231-810d-74e61da22c37",
-    "38cdf60f-e431-43b5-aac3-7e6215447d67"
+    "category_showcase",
+    "craftsmanship_story",
+    "editorial_quote",
+    "faq_care",
+    "newsletter_signup"
   ]
 }

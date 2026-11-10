@@ -144,6 +144,9 @@
         "sale_price": "Cena po zľave",
         "unit_price": "Jednotková cena"
       },
+      "selling_plans": {
+        "one_time_purchase": "Jednorazový nákup"
+      },
       "pickup_availability": {
         "view_store_info": "Zobraziť informácie o obchode",
         "check_other_stores": "Skontrolovať dostupnosť v iných obchodoch",

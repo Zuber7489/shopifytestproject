@@ -135,6 +135,9 @@
         "sale_price": "Цена при разпродажба",
         "unit_price": "Единична цена"
       },
+      "selling_plans": {
+        "one_time_purchase": "Еднократна покупка"
+      },
       "share": "Споделяне на този продукт",
       "unavailable": "Неналично",
       "vendor": "Доставчик",

@@ -135,6 +135,9 @@
         "sale_price": "Salgspris",
         "unit_price": "Enhetspris"
       },
+      "selling_plans": {
+        "one_time_purchase": "Engangskjøp"
+      },
       "share": "Del dette produktet",
       "sold_out": "Utsolgt",
       "unavailable": "Utilgjengelig",

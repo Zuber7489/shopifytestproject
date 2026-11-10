@@ -135,6 +135,9 @@
         "sale_price": "Giá bán",
         "unit_price": "Đơn giá"
       },
+      "selling_plans": {
+        "one_time_purchase": "Mua một lần"
+      },
       "share": "Chia sẻ sản phẩm này",
       "sold_out": "Đã bán hết",
       "unavailable": "Không có sẵn",

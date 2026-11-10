@@ -144,6 +144,9 @@
         "sale_price": "Išpardavimo kaina",
         "unit_price": "Vieneto kaina"
       },
+      "selling_plans": {
+        "one_time_purchase": "Vienkartinis pirkimas"
+      },
       "pickup_availability": {
         "view_store_info": "Žiūrėti parduotuvės informaciją",
         "check_other_stores": "Pažiūrėti, ar yra kitose parduotuvėse",

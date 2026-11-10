@@ -144,6 +144,9 @@
         "sale_price": "Cena promocyjna",
         "unit_price": "Cena jednostkowa"
       },
+      "selling_plans": {
+        "one_time_purchase": "Zakup jednorazowy"
+      },
       "pickup_availability": {
         "view_store_info": "Wyświetl informacje o sklepie",
         "check_other_stores": "Sprawdź dostępność w innych sklepach",

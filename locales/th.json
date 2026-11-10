@@ -135,6 +135,9 @@
         "sale_price": "ราคาโปรโมชัน",
         "unit_price": "ราคาต่อหน่วย"
       },
+      "selling_plans": {
+        "one_time_purchase": "การซื้อครั้งเดียว"
+      },
       "share": "แชร์สินค้ารายการนี้",
       "sold_out": "ขายหมดแล้ว",
       "unavailable": "ไม่พร้อมใช้งาน",

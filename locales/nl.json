@@ -135,6 +135,9 @@
         "sale_price": "Aanbiedingsprijs",
         "unit_price": "Eenheidsprijs"
       },
+      "selling_plans": {
+        "one_time_purchase": "Eenmalige aankoop"
+      },
       "share": "Dit product delen",
       "sold_out": "Uitverkocht",
       "unavailable": "Niet beschikbaar",

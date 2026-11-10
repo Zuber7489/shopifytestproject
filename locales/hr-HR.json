@@ -143,6 +143,9 @@
         "sale_price": "Prodajna cijena",
         "unit_price": "Jedinična cijena"
       },
+      "selling_plans": {
+        "one_time_purchase": "Jednokratna kupnja"
+      },
       "pickup_availability": {
         "view_store_info": "Prikaži informacije o trgovini",
         "check_other_stores": "Provjeri dostupnost u drugim trgovinama",

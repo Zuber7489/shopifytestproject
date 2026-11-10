@@ -144,6 +144,9 @@
         "sale_price": "Znižana cena",
         "unit_price": "Cena na enoto"
       },
+      "selling_plans": {
+        "one_time_purchase": "Enkratni nakup"
+      },
       "pickup_availability": {
         "view_store_info": "Prikaži podatke o trgovini",
         "check_other_stores": "Preveri razpoložljivost v drugih trgovinah",

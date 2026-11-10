@@ -135,6 +135,9 @@
         "sale_price": "促销价",
         "unit_price": "单价"
       },
+      "selling_plans": {
+        "one_time_purchase": "一次性购买"
+      },
       "share": "分享此产品",
       "sold_out": "售罄",
       "unavailable": "不可用",

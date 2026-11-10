@@ -135,6 +135,9 @@
         "sale_price": "Τιμή έκπτωσης",
         "unit_price": "Τιμή μονάδας"
       },
+      "selling_plans": {
+        "one_time_purchase": "Εφάπαξ αγορά"
+      },
       "share": "Κοινοποιήστε αυτό το προϊόν",
       "sold_out": "Εξαντλήθηκε",
       "unavailable": "Μη διαθέσιμο",

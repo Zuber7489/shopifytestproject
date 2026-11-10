@@ -135,6 +135,9 @@
         "sale_price": "售價",
         "unit_price": "單價"
       },
+      "selling_plans": {
+        "one_time_purchase": "單次購買"
+      },
       "share": "分享產品",
       "sold_out": "售罄",
       "unavailable": "無法供貨",

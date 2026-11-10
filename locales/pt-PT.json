@@ -136,6 +136,9 @@
         "sale_price": "Preço de saldo",
         "unit_price": "Preço unitário"
       },
+      "selling_plans": {
+        "one_time_purchase": "Compra pontual"
+      },
       "share": "Partilhar este produto",
       "sold_out": "Esgotado",
       "unavailable": "Indisponível",

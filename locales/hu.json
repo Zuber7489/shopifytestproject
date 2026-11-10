@@ -135,6 +135,9 @@
         "sale_price": "Akciós ár",
         "unit_price": "Egységár"
       },
+      "selling_plans": {
+        "one_time_purchase": "Egyszeri vásárlás"
+      },
       "share": "A termék megosztása",
       "sold_out": "Elfogyott",
       "unavailable": "Nincs készleten",

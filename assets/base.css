@@ -3147,3 +3147,106 @@ details-disclosure > details {
     100% { transform: rotate(360deg) translateX(1em) rotate(-360deg) scale(1.2); }
   }
 }
+
+
+/* ==========================================================================
+   VALA ATELIER - Luxury Leather & Bag Ecommerce Enhancements
+   ========================================================================== */
+
+/* Typography & Lettering */
+.header__heading-link,
+.card__heading,
+.banner__heading,
+.rich-text__heading,
+.collection__title {
+  letter-spacing: 0.04em;
+}
+
+/* Elegant Buttons */
+.button,
+.shopify-challenge__button,
+.customer button {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.button:hover,
+.shopify-challenge__button:hover,
+.customer button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26, 22, 20, 0.15);
+}
+
+/* Product Card Luxury Refinements */
+.card-wrapper {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card--card {
+  border: 1px solid rgba(26, 22, 20, 0.06);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card--card .media img {
+  transition: transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.card-wrapper:hover .card--card .media img {
+  transform: scale(1.04);
+}
+
+/* Announcement Bar Luxury Polish */
+.announcement-bar {
+  background: #1a1614;
+  color: #f5eee6;
+}
+
+.announcement-bar__message {
+  font-size: 1.25rem;
+  letter-spacing: 0.08em;
+  padding: 0.75rem 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Value Props Multicolumn Styling */
+.multicolumn-card {
+  background: transparent;
+  padding: 1.5rem 1rem;
+  border-radius: 4px;
+}
+
+.multicolumn-card__info .inline-richtext {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #1a1614;
+}
+
+/* Badge Polish */
+.badge {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+}
+
+/* Collapsible Content / FAQ Accordion */
+.collapsible-content summary {
+  padding: 1.8rem 0;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/* Newsletter Section Polish */
+.newsletter__wrapper {
+  border-radius: 6px;
+}

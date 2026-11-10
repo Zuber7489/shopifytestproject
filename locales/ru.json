@@ -144,6 +144,9 @@
         "sale_price": "Цена со скидкой",
         "unit_price": "Цена за единицу"
       },
+      "selling_plans": {
+        "one_time_purchase": "Разовая покупка"
+      },
       "pickup_availability": {
         "view_store_info": "Сведения о магазине",
         "check_other_stores": "Проверить наличие в других магазинах",

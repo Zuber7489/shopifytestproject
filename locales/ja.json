@@ -135,6 +135,9 @@
         "sale_price": "セール価格",
         "unit_price": "単価"
       },
+      "selling_plans": {
+        "one_time_purchase": "1回限りの購入"
+      },
       "share": "この商品を共有する",
       "sold_out": "売り切れ",
       "unavailable": "利用できません",

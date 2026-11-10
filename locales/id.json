@@ -135,6 +135,9 @@
         "sale_price": "Harga obral",
         "unit_price": "Harga satuan"
       },
+      "selling_plans": {
+        "one_time_purchase": "Pembelian satu kali"
+      },
       "share": "Bagikan produk ini",
       "sold_out": "Habis",
       "unavailable": "Tidak Tersedia",

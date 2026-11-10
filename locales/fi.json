@@ -135,6 +135,9 @@
         "sale_price": "Alennushinta",
         "unit_price": "Yksikköhinta"
       },
+      "selling_plans": {
+        "one_time_purchase": "Kertaostos"
+      },
       "share": "Jaa tämä tuote",
       "sold_out": "Loppuunmyyty",
       "unavailable": "Ei käytettävissä",

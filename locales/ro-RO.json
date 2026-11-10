@@ -143,6 +143,9 @@
         "sale_price": "Preț redus",
         "unit_price": "Preț unitar"
       },
+      "selling_plans": {
+        "one_time_purchase": "Achiziție unică"
+      },
       "pickup_availability": {
         "view_store_info": "Vizualizați informațiile despre magazin",
         "check_other_stores": "Vizualizați disponibilitatea la alte magazine",

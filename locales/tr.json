@@ -135,6 +135,9 @@
         "sale_price": "İndirimli fiyat",
         "unit_price": "Birim fiyat"
       },
+      "selling_plans": {
+        "one_time_purchase": "Tek seferlik satın alım"
+      },
       "share": "Bu ürünü paylaş",
       "sold_out": "Tükendi",
       "unavailable": "Kullanım dışı",
